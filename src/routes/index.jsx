@@ -42,7 +42,7 @@ export default function Router() {
         { path: "my-payment", element: <Payment /> },
         { path: "product-detail/:id", element: <ProductDetails /> }, // Fixed typo
         { path: "search-product", element: <SearchedProducts /> },
-        { path: "404", element: <Page404 /> },
+        { path: "404", element: <GeneralApp /> },
         { path: "*", element: <Navigate to="/404" replace /> }, // Moved to layout-specific handling
       ],
     },
