@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <!-- Replace Href to your Logo -->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <!-- <link rel="icon" type="image/svg+xml" href="./vite.svg" /> -->
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'wasm-unsafe-eval' chrome-extension://6500ce8b-f848-4a5f-a325-366a3f4b637b;">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' chrome-extension://6500ce8b-f848-4a5f-a325-366a3f4b637b; script-src-elem 'self' chrome-extension://6500ce8b-f848-4a5f-a325-366a3f4b637b;">
 
 
     <!-- Tell Descirption To Browser-->
@@ -24,7 +24,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <!-- <script type="module" src="./src/main.jsx"></script> -->
+    <!-- <script type="module" src="/src/main.jsx"></script> -->
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
