@@ -1,0 +1,1 @@
+import{q as s,s as e}from"./index-DVMs5Pnf.js";function l(t){return e("MuiListItemIcon",t)}const i=s("MuiListItemIcon",["root","alignItemsFlexStart"]),o=i;function I(t){return e("MuiListItemText",t)}const n=s("MuiListItemText",["root","multiline","dense","inset","primary","secondary"]),m=n;export{o as a,I as b,l as g,m as l};
