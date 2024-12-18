@@ -40,11 +40,10 @@ export default function Router() {
         { path: "my-wishlist", element: <Wishlist /> },
         { path: "my-coupons", element: <MyCoupons /> },
         { path: "my-payment", element: <Payment /> },
-        { path: "prodct-detail/:id", element: <ProductDetails /> },
+        { path: "product-detail/:id", element: <ProductDetails /> }, // Fixed typo
         { path: "search-product", element: <SearchedProducts /> },
-        
         { path: "404", element: <Page404 /> },
-        { path: "*", element: <Navigate to="/404" replace /> },
+        { path: "*", element: <Navigate to="/404" replace /> }, // Moved to layout-specific handling
       ],
     },
     {
